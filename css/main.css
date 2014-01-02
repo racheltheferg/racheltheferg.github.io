@@ -7,8 +7,9 @@
 	float:left;
 }
 
-.thumbs:after {
-	clear:both;
+.inner-thumbs img {
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .logo {
