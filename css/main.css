@@ -15,7 +15,13 @@ h3 {
 }
 
 .thumbs img{
-	margin-bottom: 15px;
+	margin-right: 15px;
+	float:left;
+}
+
+.inner-thumbs img {
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .logo {
