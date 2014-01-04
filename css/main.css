@@ -1,13 +1,24 @@
 
 h2 {
-	font-size: 24px;
+	font-size: 21px;
 	font-weight: normal;
+	margin: none;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
 	color: #aa4927;
+	line-height: 20px;
+}
+
+a {
+	color: #aa4927;
+}
+
+a:hover {
+	color: #f44305;
+	text-decoration: none;
 }
 
 .container {
@@ -19,13 +30,87 @@ h3 {
 	float:left;
 }
 
+.caption {
+	position: absolute;
+	bottom: 20px;
+	background-color: #000;
+	width: 212px;
+	height:25px;
+	opacity: 0;
+}
+
+.caption-lg {
+	position: absolute;
+	bottom: 4px;
+	background-color: #000;
+	width: 440px;
+	height:30px;
+	opacity: 0;
+}
+
+.caption-bottom {
+	position: absolute;
+	bottom: 6px;
+	background-color: #000;
+	width: 212px;
+	height:25px;
+	opacity: 0;
+}
+
+.caption p{
+	color: #fff;
+	font-size: 12px;
+	margin: 5px 0 5px 5px;
+	letter-spacing: .5px;
+}
+
+.caption-lg p{
+	color: #fff;
+	font-size: 13px;
+	margin: 5px 0 5px 5px;
+	letter-spacing: .5px;
+}
+
+.caption-bottom p{
+	color: #fff;
+	font-size: 12px;
+	margin: 5px 0 5px 5px;
+	letter-spacing: .5px;
+}
+
 .inner-thumbs img {
   margin-right: 15px;
   margin-bottom: 15px;
 }
 
+
+.feature:hover .caption {
+    opacity: .9;
+    transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.feature:hover .caption-lg {
+    opacity: .9;
+    transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
+.feature:hover .caption-bottom {
+    opacity: .9;
+    transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+}
+
 .logo {
 	margin: 30px 0 8px 0;
+}
+
+.menu {
+	margin-bottom: 8px;
 }
 
 .menu li {
@@ -33,3 +118,33 @@ h3 {
 	float: right;
 	margin: 0 0 0 30px;
 }
+
+
+.sidebar p{
+	float:right;
+	margin-top: 28px;
+	color: #4f4f4f;
+	font-size: 12px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+.sidebar img {
+	margin-bottom: 15px;
+	float: right;
+}
+
+.footer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.footer p{
+	font-size: 12px;
+}
+
+hr {
+	border-top: 1px solid #ccc;	
+}
+
+
+

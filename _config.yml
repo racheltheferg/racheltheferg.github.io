@@ -1,3 +1,6 @@
 name: Rachel Ferguson
 markdown: redcarpet
+redcarpet:
+  extensions: [smart]
+encoding: UTF-8
 pygments: true
