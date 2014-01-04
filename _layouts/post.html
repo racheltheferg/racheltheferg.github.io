@@ -4,8 +4,26 @@ layout: default
 <div class="row">
 	<div class="col-xs-12 col-md-8">
 		<h2>{{ page.title }}</h2>
+		{{% if page.gallery %}}
+			<div class="gallery js-gallery">
+				{% for item in page.gallery %}
+					<div class="item js-gallery-image-{{forloop.index}} {% if forloop.first %}active{% endif %}">
+						<img src="{{ item.image }}" alt="{{ item.caption }}"/>
+						{{ item.caption }}
+					</div>
+				{% endfor %}
+				<div class="thumbnails">
+					{% for item in page.gallery %}
+						<div class="thumb js-thumb {% if forloop.first %}active{% endif %}" data-gallery-image=".js-gallery-image-{{forloop.index}}">
+							<img src="{{ item.thumbnail }}">
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		{{% endif %}}
+
 		<div class="post">
-		{{ content }}
+			{{ content }}
 		</div>
 	</div>
 	<div class="sidebar col-xs-12 col-md-4">
@@ -16,8 +34,7 @@ layout: default
 	</div>
 </div>
 <div class="footer row">
-      <div class="col-md-12">
-        <p>Copyright 2014 Rachel Ferguson</p>
-      </div>
-    </div>
-
+	<div class="col-md-12">
+	  <p>Copyright 2014 Rachel Ferguson</p>
+	</div>
+</div>

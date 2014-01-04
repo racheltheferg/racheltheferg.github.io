@@ -119,7 +119,6 @@ a:hover {
 	margin: 0 0 0 30px;
 }
 
-
 .sidebar p{
 	float:right;
 	margin-top: 28px;
@@ -143,8 +142,38 @@ a:hover {
 }
 
 hr {
-	border-top: 1px solid #ccc;	
+	border-top: 1px solid #ccc;
 }
 
+.post {
+  clear: both;
+}
 
+/* Post Gallery CSS */
+.gallery {
+  margin-bottom: 20px;
+}
 
+.gallery .item {
+  display: none;
+  opacity: 0;
+}
+
+.gallery .item.active {
+  display: block;
+  opacity: 1;
+}
+
+.gallery .thumbnails {
+
+}
+
+.gallery .thumbnails .thumb {
+  display: inline-block;
+  margin: 10px 3px 0 0;
+  cursor: pointer;
+}
+
+.gallery .thumbnails .thumb.active {
+  border: 1px solid #000;
+}
