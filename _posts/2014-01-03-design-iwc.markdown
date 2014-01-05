@@ -1,22 +1,22 @@
 ---
 layout: post
-title:  "Print Design: 25th Anniversary Bag Sale"
+title:  "Website Design: Indiana Writers Center"
 date:   2014-01-03 16:50:50
 categories: print
-permalink: "/writing/bag-sale"
+permalink: "/design/iwc"
 gallery:
-  - thumbnail: /images/bag-thumb-1.jpg
-    image: /images/bag-1.jpg
-    caption: Design Detail
-  - thumbnail: /images/bag-thumb-2.jpg
-    image: /images/bag-2.jpg
-    caption: Customer postcard
-  - thumbnail: /images/bag-thumb-3.jpg
-    image: /images/bag-3.png
-    caption: Bag stuffers
-  - thumbnail: /images/bag-thumb-4.jpg
-    image: /images/bag-4.jpg
-    caption: Posters
+  - thumbnail: /images/iwc-thumb-1.png
+    image: /images/iwc-1.png
+    caption: Indiana Writers Center website: home page
+  - thumbnail: /images/iwc-thumb-2.png
+    image: /images/iwc-2.png
+    caption: Indiana Writers Center website: course catalog
+  - thumbnail: /images/iwc-thumb-3.png
+    image: /images/iwc-3.png
+    caption: Indiana Writers Center website: interior page
+  - thumbnail: /images/iwc-thumb-4.png
+    image: /images/iwc-4.png
+    caption: Indiana Writers Center website: store
 ---
 
 ### 25 years is a big deal for any business, but when you're a local non-profit fair trade business it's a SUPER BIG DEAL.

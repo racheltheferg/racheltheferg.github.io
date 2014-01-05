@@ -9,7 +9,9 @@ layout: default
 				{% for item in page.gallery %}
 					<div class="item js-gallery-image-{{forloop.index}} {% if forloop.first %}active{% endif %}">
 						<img src="{{ item.image }}" alt="{{ item.caption }}"/>
-						{{ item.caption }}
+							<div class="gallery-caption">
+								<p>{{ item.caption }}</p>
+							</div>
 					</div>
 				{% endfor %}
 				<div class="thumbnails">

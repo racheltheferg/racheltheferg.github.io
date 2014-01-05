@@ -170,10 +170,22 @@ hr {
 
 .gallery .thumbnails .thumb {
   display: inline-block;
-  margin: 10px 3px 0 0;
+  margin: 0 7px 0 0;
   cursor: pointer;
 }
 
 .gallery .thumbnails .thumb.active {
   border: 1px solid #000;
+}
+
+.gallery-caption {
+	font-size: 12px;
+	text-align: center;
+	background-color: #000;
+	width: 575px;
+}
+
+.gallery-caption p {
+	color: #fff;
+	padding: 5px;
 }
